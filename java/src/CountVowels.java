@@ -6,7 +6,6 @@ public class CountVowels {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		System.out.println("Please input a sentence:");
 		String str = in.nextLine();
@@ -25,5 +24,4 @@ public class CountVowels {
 		System.out.println("There are " + vowels + " vowels");
 		System.out.println("There are " + consonants + " consonants");
 	}
-
 }
